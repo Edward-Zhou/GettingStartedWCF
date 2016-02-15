@@ -1,0 +1,6 @@
+D:\Sample\WCF\GettingStarted\GettingStartedArbitraryData\bin\Debug\GettingStartedArbitraryData.exe.config
+D:\Sample\WCF\GettingStarted\GettingStartedArbitraryData\bin\Debug\GettingStartedArbitraryData.exe
+D:\Sample\WCF\GettingStarted\GettingStartedArbitraryData\bin\Debug\GettingStartedArbitraryData.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedArbitraryData\obj\Debug\GettingStartedArbitraryData.csprojResolveAssemblyReference.cache
+D:\Sample\WCF\GettingStarted\GettingStartedArbitraryData\obj\Debug\GettingStartedArbitraryData.exe
+D:\Sample\WCF\GettingStarted\GettingStartedArbitraryData\obj\Debug\GettingStartedArbitraryData.pdb

@@ -1,0 +1,6 @@
+D:\Sample\WCF\GettingStarted\GettingStartedCallRestFromWCF\bin\Debug\GettingStartedCallRestFromWCF.exe.config
+D:\Sample\WCF\GettingStarted\GettingStartedCallRestFromWCF\bin\Debug\GettingStartedCallRestFromWCF.exe
+D:\Sample\WCF\GettingStarted\GettingStartedCallRestFromWCF\bin\Debug\GettingStartedCallRestFromWCF.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedCallRestFromWCF\obj\Debug\GettingStartedCallRestFromWCF.csprojResolveAssemblyReference.cache
+D:\Sample\WCF\GettingStarted\GettingStartedCallRestFromWCF\obj\Debug\GettingStartedCallRestFromWCF.exe
+D:\Sample\WCF\GettingStarted\GettingStartedCallRestFromWCF\obj\Debug\GettingStartedCallRestFromWCF.pdb

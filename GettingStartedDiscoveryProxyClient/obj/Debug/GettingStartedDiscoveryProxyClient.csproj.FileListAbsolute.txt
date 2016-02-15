@@ -1,0 +1,8 @@
+D:\Sample\WCF\GettingStarted\GettingStartedDiscoveryProxyClient\bin\Debug\GettingStartedDiscoveryProxyClient.exe.config
+D:\Sample\WCF\GettingStarted\GettingStartedDiscoveryProxyClient\bin\Debug\GettingStartedDiscoveryProxyClient.exe
+D:\Sample\WCF\GettingStarted\GettingStartedDiscoveryProxyClient\bin\Debug\GettingStartedDiscoveryProxyClient.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedDiscoveryProxyClient\obj\Debug\GettingStartedDiscoveryProxyClient.exe
+D:\Sample\WCF\GettingStarted\GettingStartedDiscoveryProxyClient\obj\Debug\GettingStartedDiscoveryProxyClient.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedDiscoveryProxyClient\bin\Debug\GettingStartedDiscoveryProxyLib.dll
+D:\Sample\WCF\GettingStarted\GettingStartedDiscoveryProxyClient\bin\Debug\GettingStartedDiscoveryProxyLib.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedDiscoveryProxyClient\obj\Debug\GettingStartedDiscoveryProxyClient.csprojResolveAssemblyReference.cache

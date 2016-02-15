@@ -1,0 +1,6 @@
+D:\Sample\WCF\GettingStarted\GettingStartedExposeContract\bin\Debug\GettingStartedExposeContract.exe.config
+D:\Sample\WCF\GettingStarted\GettingStartedExposeContract\bin\Debug\GettingStartedExposeContract.exe
+D:\Sample\WCF\GettingStarted\GettingStartedExposeContract\bin\Debug\GettingStartedExposeContract.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedExposeContract\obj\Debug\GettingStartedExposeContract.exe
+D:\Sample\WCF\GettingStarted\GettingStartedExposeContract\obj\Debug\GettingStartedExposeContract.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedExposeContract\obj\Debug\GettingStartedExposeContract.csprojResolveAssemblyReference.cache

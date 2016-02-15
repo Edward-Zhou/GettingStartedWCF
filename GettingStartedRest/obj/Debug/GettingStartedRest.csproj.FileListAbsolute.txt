@@ -1,0 +1,6 @@
+D:\Sample\WCF\GettingStarted\GettingStartedRest\bin\Debug\GettingStartedRest.exe.config
+D:\Sample\WCF\GettingStarted\GettingStartedRest\obj\Debug\GettingStartedRest.csprojResolveAssemblyReference.cache
+D:\Sample\WCF\GettingStarted\GettingStartedRest\bin\Debug\GettingStartedRest.exe
+D:\Sample\WCF\GettingStarted\GettingStartedRest\bin\Debug\GettingStartedRest.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedRest\obj\Debug\GettingStartedRest.exe
+D:\Sample\WCF\GettingStarted\GettingStartedRest\obj\Debug\GettingStartedRest.pdb

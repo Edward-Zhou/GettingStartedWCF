@@ -1,0 +1,5 @@
+D:\Sample\WCF\GettingStarted\GettingStartedUDPConsumer\bin\Debug\GettingStartedUDPConsumer.exe.config
+D:\Sample\WCF\GettingStarted\GettingStartedUDPConsumer\bin\Debug\GettingStartedUDPConsumer.exe
+D:\Sample\WCF\GettingStarted\GettingStartedUDPConsumer\bin\Debug\GettingStartedUDPConsumer.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedUDPConsumer\obj\Debug\GettingStartedUDPConsumer.exe
+D:\Sample\WCF\GettingStarted\GettingStartedUDPConsumer\obj\Debug\GettingStartedUDPConsumer.pdb

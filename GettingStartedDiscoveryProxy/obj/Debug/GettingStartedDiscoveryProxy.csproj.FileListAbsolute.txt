@@ -1,0 +1,5 @@
+D:\Sample\WCF\GettingStarted\GettingStartedDiscoveryProxy\bin\Debug\GettingStartedDiscoveryProxy.exe.config
+D:\Sample\WCF\GettingStarted\GettingStartedDiscoveryProxy\bin\Debug\GettingStartedDiscoveryProxy.exe
+D:\Sample\WCF\GettingStarted\GettingStartedDiscoveryProxy\bin\Debug\GettingStartedDiscoveryProxy.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedDiscoveryProxy\obj\Debug\GettingStartedDiscoveryProxy.exe
+D:\Sample\WCF\GettingStarted\GettingStartedDiscoveryProxy\obj\Debug\GettingStartedDiscoveryProxy.pdb

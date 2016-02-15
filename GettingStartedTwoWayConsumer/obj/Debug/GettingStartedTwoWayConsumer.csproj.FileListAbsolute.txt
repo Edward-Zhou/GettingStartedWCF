@@ -1,0 +1,8 @@
+D:\Sample\WCF\GettingStarted\GettingStartedTwoWayConsumer\bin\Debug\GettingStartedTwoWayConsumer.exe.config
+D:\Sample\WCF\GettingStarted\GettingStartedTwoWayConsumer\bin\Debug\GettingStartedTwoWayConsumer.exe
+D:\Sample\WCF\GettingStarted\GettingStartedTwoWayConsumer\bin\Debug\GettingStartedTwoWayConsumer.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedTwoWayConsumer\bin\Debug\GettingStartedTwoWayInterface.dll
+D:\Sample\WCF\GettingStarted\GettingStartedTwoWayConsumer\bin\Debug\GettingStartedTwoWayInterface.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedTwoWayConsumer\obj\Debug\GettingStartedTwoWayConsumer.csprojResolveAssemblyReference.cache
+D:\Sample\WCF\GettingStarted\GettingStartedTwoWayConsumer\obj\Debug\GettingStartedTwoWayConsumer.exe
+D:\Sample\WCF\GettingStarted\GettingStartedTwoWayConsumer\obj\Debug\GettingStartedTwoWayConsumer.pdb

@@ -1,0 +1,6 @@
+D:\Sample\WCF\GettingStarted\GettingStartedClient\bin\Debug\GettingStartedClient.exe.config
+D:\Sample\WCF\GettingStarted\GettingStartedClient\bin\Debug\GettingStartedClient.exe
+D:\Sample\WCF\GettingStarted\GettingStartedClient\bin\Debug\GettingStartedClient.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedClient\obj\Debug\GettingStartedClient.csprojResolveAssemblyReference.cache
+D:\Sample\WCF\GettingStarted\GettingStartedClient\obj\Debug\GettingStartedClient.exe
+D:\Sample\WCF\GettingStarted\GettingStartedClient\obj\Debug\GettingStartedClient.pdb

@@ -1,0 +1,5 @@
+D:\Sample\WCF\GettingStarted\GettingStartedOneWayClient\bin\Debug\GettingStartedOneWayClient.exe.config
+D:\Sample\WCF\GettingStarted\GettingStartedOneWayClient\bin\Debug\GettingStartedOneWayClient.exe
+D:\Sample\WCF\GettingStarted\GettingStartedOneWayClient\bin\Debug\GettingStartedOneWayClient.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedOneWayClient\obj\Debug\GettingStartedOneWayClient.exe
+D:\Sample\WCF\GettingStarted\GettingStartedOneWayClient\obj\Debug\GettingStartedOneWayClient.pdb

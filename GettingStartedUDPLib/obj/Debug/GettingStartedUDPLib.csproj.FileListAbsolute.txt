@@ -1,0 +1,5 @@
+D:\Sample\WCF\GettingStarted\GettingStartedUDPLib\bin\Debug\GettingStartedUDPLib.dll
+D:\Sample\WCF\GettingStarted\GettingStartedUDPLib\bin\Debug\GettingStartedUDPLib.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedUDPLib\obj\Debug\GettingStartedUDPLib.dll
+D:\Sample\WCF\GettingStarted\GettingStartedUDPLib\obj\Debug\GettingStartedUDPLib.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedUDPLib\obj\Debug\GettingStartedUDPLib.csprojResolveAssemblyReference.cache

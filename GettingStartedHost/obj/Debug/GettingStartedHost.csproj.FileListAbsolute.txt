@@ -1,0 +1,8 @@
+D:\Sample\WCF\GettingStarted\GettingStartedHost\bin\Debug\GettingStartedHost.exe.config
+D:\Sample\WCF\GettingStarted\GettingStartedHost\bin\Debug\GettingStartedHost.exe
+D:\Sample\WCF\GettingStarted\GettingStartedHost\bin\Debug\GettingStartedHost.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedHost\bin\Debug\GettingStartedLib.dll
+D:\Sample\WCF\GettingStarted\GettingStartedHost\bin\Debug\GettingStartedLib.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedHost\obj\Debug\GettingStartedHost.csprojResolveAssemblyReference.cache
+D:\Sample\WCF\GettingStarted\GettingStartedHost\obj\Debug\GettingStartedHost.exe
+D:\Sample\WCF\GettingStarted\GettingStartedHost\obj\Debug\GettingStartedHost.pdb

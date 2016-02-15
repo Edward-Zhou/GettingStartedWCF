@@ -1,0 +1,256 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.40629.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedLib", "GettingStartedLib\GettingStartedLib.csproj", "{A1EB4299-C924-4FF7-BEC0-FAEAE9ADFD1E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedHost", "GettingStartedHost\GettingStartedHost.csproj", "{D336C741-883F-4DDB-A0ED-794B1297574E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedClient", "GettingStartedClient\GettingStartedClient.csproj", "{F588B385-BEA4-4B78-814D-347AB40F8903}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedRest", "GettingStartedRest\GettingStartedRest.csproj", "{A382C15E-0634-4279-B8DB-F5418B306E95}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedExposeContract", "GettingStartedExposeContract\GettingStartedExposeContract.csproj", "{A389E457-473D-41F5-B1CE-066B477C24B5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedArbitraryData", "GettingStartedArbitraryData\GettingStartedArbitraryData.csproj", "{43F15AE7-D604-4190-A6D5-7C02C921397E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedAcceptArbitraryData", "GettingStartedAcceptArbitraryData\GettingStartedAcceptArbitraryData.csproj", "{E4810DC5-6D6E-4D41-8171-CCF1699E0DED}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedCallRestFromWCF", "GettingStartedCallRestFromWCF\GettingStartedCallRestFromWCF.csproj", "{18771E05-7B47-4B19-8F93-9ECBF998A95C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedUDPTransport", "GettingStartedUDPTransport\GettingStartedUDPTransport.csproj", "{3E59BE95-DE6F-470A-8EC0-4D82AE438377}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedUDPTransportConsumers", "GettingStartedUDPTransportSender\GettingStartedUDPTransportConsumers.csproj", "{433B2DE8-19EF-4B51-84DA-3E57BA93DA4B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedOneWayServer", "GettingStartedOneWayServer\GettingStartedOneWayServer.csproj", "{1DA97609-0098-4911-B59F-23C2D4D40410}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedOneWayClient", "GettingStartedOneWayClient\GettingStartedOneWayClient.csproj", "{2A02A684-A1A9-4A5D-836E-1A6022E2B236}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedUDPLib", "GettingStartedUDPLib\GettingStartedUDPLib.csproj", "{33FF9020-3550-44A8-8854-C61132F89EB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedTwoWayServer", "GettingStartedTwoWayServer\GettingStartedTwoWayServer.csproj", "{5E9F75F1-40EC-4CF1-925E-E2D485BD9505}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedTwoWayInterface", "GettingStartedTwoWayInterface\GettingStartedTwoWayInterface.csproj", "{49C5101B-6E4E-4762-BD1C-BE4C4C9422CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedTwoWayConsumer", "GettingStartedTwoWayConsumer\GettingStartedTwoWayConsumer.csproj", "{F25E6271-B9FA-4928-AA40-980D2AB33897}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedUDPService", "GettingStartedUDPService\GettingStartedUDPService.csproj", "{4FD11C80-6A5B-49B3-8BD0-F20264925AD4}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedUDPConsumer", "GettingStartedUDPConsumer\GettingStartedUDPConsumer.csproj", "{A0873FAB-909C-40FD-A33C-065BD28305A6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedHostDiscoveryClientApp", "GettingStartedHostDiscoveryClientApp\GettingStartedHostDiscoveryClientApp.csproj", "{FB352B1C-73D5-43A8-845F-AC311F8202CB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedDiscoveryProxy", "GettingStartedDiscoveryProxy\GettingStartedDiscoveryProxy.csproj", "{FC993630-3C1D-4C6D-AEEE-0DE73479F771}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedDiscoveryProxyService", "GettingStartedDiscoveryProxyService\GettingStartedDiscoveryProxyService.csproj", "{FC61C769-1E12-4BF6-A52E-9651FA15679E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedDiscoveryProxyClient", "GettingStartedDiscoveryProxyClient\GettingStartedDiscoveryProxyClient.csproj", "{3BB9CBEA-0466-4B90-AF5B-0AB90036F227}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedDiscoveryProxyLib", "GettingStartedDiscoveryProxyLib\GettingStartedDiscoveryProxyLib.csproj", "{692CDE4F-C6B6-453C-B68B-1B491A830F28}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedThrottlingService", "GettingStartedThrottlingService\GettingStartedThrottlingService.csproj", "{A0DFB96E-49DF-4CF7-A4D3-7C8E8BAD8420}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GettingStartedThrottlingClient", "GettingStartedThrottlingClient\GettingStartedThrottlingClient.csproj", "{CDEDE4E3-A40E-4904-AEC5-63A0CEB8DB15}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MvcWcfDataService", "MvcWcfDataService\MvcWcfDataService.csproj", "{B12200F6-5ADF-427C-A96D-2FF60CBE2030}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 27
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://v-tazho.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = GettingStartedLib\\GettingStartedLib.csproj
+		SccProjectName1 = GettingStartedLib
+		SccLocalPath1 = GettingStartedLib
+		SccProjectUniqueName2 = GettingStartedHost\\GettingStartedHost.csproj
+		SccProjectName2 = GettingStartedHost
+		SccLocalPath2 = GettingStartedHost
+		SccProjectUniqueName3 = GettingStartedClient\\GettingStartedClient.csproj
+		SccProjectName3 = GettingStartedClient
+		SccLocalPath3 = GettingStartedClient
+		SccProjectUniqueName4 = GettingStartedRest\\GettingStartedRest.csproj
+		SccProjectName4 = GettingStartedRest
+		SccLocalPath4 = GettingStartedRest
+		SccProjectUniqueName5 = GettingStartedExposeContract\\GettingStartedExposeContract.csproj
+		SccProjectName5 = GettingStartedExposeContract
+		SccLocalPath5 = GettingStartedExposeContract
+		SccProjectUniqueName6 = GettingStartedArbitraryData\\GettingStartedArbitraryData.csproj
+		SccProjectName6 = GettingStartedArbitraryData
+		SccLocalPath6 = GettingStartedArbitraryData
+		SccProjectUniqueName7 = GettingStartedAcceptArbitraryData\\GettingStartedAcceptArbitraryData.csproj
+		SccProjectName7 = GettingStartedAcceptArbitraryData
+		SccLocalPath7 = GettingStartedAcceptArbitraryData
+		SccProjectUniqueName8 = GettingStartedCallRestFromWCF\\GettingStartedCallRestFromWCF.csproj
+		SccProjectName8 = GettingStartedCallRestFromWCF
+		SccLocalPath8 = GettingStartedCallRestFromWCF
+		SccProjectUniqueName9 = GettingStartedUDPTransport\\GettingStartedUDPTransport.csproj
+		SccProjectName9 = GettingStartedUDPTransport
+		SccLocalPath9 = GettingStartedUDPTransport
+		SccProjectUniqueName10 = GettingStartedOneWayServer\\GettingStartedOneWayServer.csproj
+		SccProjectName10 = GettingStartedOneWayServer
+		SccLocalPath10 = GettingStartedOneWayServer
+		SccProjectUniqueName11 = GettingStartedOneWayClient\\GettingStartedOneWayClient.csproj
+		SccProjectName11 = GettingStartedOneWayClient
+		SccLocalPath11 = GettingStartedOneWayClient
+		SccProjectUniqueName12 = GettingStartedUDPLib\\GettingStartedUDPLib.csproj
+		SccProjectName12 = GettingStartedUDPLib
+		SccLocalPath12 = GettingStartedUDPLib
+		SccProjectUniqueName13 = GettingStartedUDPTransportSender\\GettingStartedUDPTransportConsumers.csproj
+		SccProjectName13 = GettingStartedUDPTransportSender
+		SccLocalPath13 = GettingStartedUDPTransportSender
+		SccProjectUniqueName14 = GettingStartedTwoWayServer\\GettingStartedTwoWayServer.csproj
+		SccProjectName14 = GettingStartedTwoWayServer
+		SccLocalPath14 = GettingStartedTwoWayServer
+		SccProjectUniqueName15 = GettingStartedTwoWayInterface\\GettingStartedTwoWayInterface.csproj
+		SccProjectName15 = GettingStartedTwoWayInterface
+		SccLocalPath15 = GettingStartedTwoWayInterface
+		SccProjectUniqueName16 = GettingStartedTwoWayConsumer\\GettingStartedTwoWayConsumer.csproj
+		SccProjectName16 = GettingStartedTwoWayConsumer
+		SccLocalPath16 = GettingStartedTwoWayConsumer
+		SccProjectUniqueName17 = GettingStartedUDPService\\GettingStartedUDPService.csproj
+		SccProjectName17 = GettingStartedUDPService
+		SccLocalPath17 = GettingStartedUDPService
+		SccProjectUniqueName18 = GettingStartedUDPConsumer\\GettingStartedUDPConsumer.csproj
+		SccProjectName18 = GettingStartedUDPConsumer
+		SccLocalPath18 = GettingStartedUDPConsumer
+		SccProjectUniqueName19 = GettingStartedHostDiscoveryClientApp\\GettingStartedHostDiscoveryClientApp.csproj
+		SccProjectName19 = GettingStartedHostDiscoveryClientApp
+		SccLocalPath19 = GettingStartedHostDiscoveryClientApp
+		SccProjectUniqueName20 = GettingStartedDiscoveryProxy\\GettingStartedDiscoveryProxy.csproj
+		SccProjectName20 = GettingStartedDiscoveryProxy
+		SccLocalPath20 = GettingStartedDiscoveryProxy
+		SccProjectUniqueName21 = GettingStartedDiscoveryProxyService\\GettingStartedDiscoveryProxyService.csproj
+		SccProjectName21 = GettingStartedDiscoveryProxyService
+		SccLocalPath21 = GettingStartedDiscoveryProxyService
+		SccProjectUniqueName22 = GettingStartedDiscoveryProxyClient\\GettingStartedDiscoveryProxyClient.csproj
+		SccProjectName22 = GettingStartedDiscoveryProxyClient
+		SccLocalPath22 = GettingStartedDiscoveryProxyClient
+		SccProjectUniqueName23 = GettingStartedDiscoveryProxyLib\\GettingStartedDiscoveryProxyLib.csproj
+		SccProjectName23 = GettingStartedDiscoveryProxyLib
+		SccLocalPath23 = GettingStartedDiscoveryProxyLib
+		SccProjectUniqueName24 = GettingStartedThrottlingService\\GettingStartedThrottlingService.csproj
+		SccProjectName24 = GettingStartedThrottlingService
+		SccLocalPath24 = GettingStartedThrottlingService
+		SccProjectUniqueName25 = GettingStartedThrottlingClient\\GettingStartedThrottlingClient.csproj
+		SccProjectName25 = GettingStartedThrottlingClient
+		SccLocalPath25 = GettingStartedThrottlingClient
+		SccProjectUniqueName26 = MvcWcfDataService\\MvcWcfDataService.csproj
+		SccProjectName26 = MvcWcfDataService
+		SccLocalPath26 = MvcWcfDataService
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A1EB4299-C924-4FF7-BEC0-FAEAE9ADFD1E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1EB4299-C924-4FF7-BEC0-FAEAE9ADFD1E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1EB4299-C924-4FF7-BEC0-FAEAE9ADFD1E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1EB4299-C924-4FF7-BEC0-FAEAE9ADFD1E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D336C741-883F-4DDB-A0ED-794B1297574E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D336C741-883F-4DDB-A0ED-794B1297574E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D336C741-883F-4DDB-A0ED-794B1297574E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D336C741-883F-4DDB-A0ED-794B1297574E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F588B385-BEA4-4B78-814D-347AB40F8903}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F588B385-BEA4-4B78-814D-347AB40F8903}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F588B385-BEA4-4B78-814D-347AB40F8903}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F588B385-BEA4-4B78-814D-347AB40F8903}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A382C15E-0634-4279-B8DB-F5418B306E95}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A382C15E-0634-4279-B8DB-F5418B306E95}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A382C15E-0634-4279-B8DB-F5418B306E95}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A382C15E-0634-4279-B8DB-F5418B306E95}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A389E457-473D-41F5-B1CE-066B477C24B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A389E457-473D-41F5-B1CE-066B477C24B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A389E457-473D-41F5-B1CE-066B477C24B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A389E457-473D-41F5-B1CE-066B477C24B5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43F15AE7-D604-4190-A6D5-7C02C921397E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43F15AE7-D604-4190-A6D5-7C02C921397E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43F15AE7-D604-4190-A6D5-7C02C921397E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43F15AE7-D604-4190-A6D5-7C02C921397E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E4810DC5-6D6E-4D41-8171-CCF1699E0DED}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E4810DC5-6D6E-4D41-8171-CCF1699E0DED}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E4810DC5-6D6E-4D41-8171-CCF1699E0DED}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E4810DC5-6D6E-4D41-8171-CCF1699E0DED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{18771E05-7B47-4B19-8F93-9ECBF998A95C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{18771E05-7B47-4B19-8F93-9ECBF998A95C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{18771E05-7B47-4B19-8F93-9ECBF998A95C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{18771E05-7B47-4B19-8F93-9ECBF998A95C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3E59BE95-DE6F-470A-8EC0-4D82AE438377}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E59BE95-DE6F-470A-8EC0-4D82AE438377}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E59BE95-DE6F-470A-8EC0-4D82AE438377}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E59BE95-DE6F-470A-8EC0-4D82AE438377}.Release|Any CPU.Build.0 = Release|Any CPU
+		{433B2DE8-19EF-4B51-84DA-3E57BA93DA4B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{433B2DE8-19EF-4B51-84DA-3E57BA93DA4B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{433B2DE8-19EF-4B51-84DA-3E57BA93DA4B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{433B2DE8-19EF-4B51-84DA-3E57BA93DA4B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1DA97609-0098-4911-B59F-23C2D4D40410}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1DA97609-0098-4911-B59F-23C2D4D40410}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1DA97609-0098-4911-B59F-23C2D4D40410}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1DA97609-0098-4911-B59F-23C2D4D40410}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2A02A684-A1A9-4A5D-836E-1A6022E2B236}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2A02A684-A1A9-4A5D-836E-1A6022E2B236}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2A02A684-A1A9-4A5D-836E-1A6022E2B236}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2A02A684-A1A9-4A5D-836E-1A6022E2B236}.Release|Any CPU.Build.0 = Release|Any CPU
+		{33FF9020-3550-44A8-8854-C61132F89EB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{33FF9020-3550-44A8-8854-C61132F89EB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{33FF9020-3550-44A8-8854-C61132F89EB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{33FF9020-3550-44A8-8854-C61132F89EB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5E9F75F1-40EC-4CF1-925E-E2D485BD9505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5E9F75F1-40EC-4CF1-925E-E2D485BD9505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5E9F75F1-40EC-4CF1-925E-E2D485BD9505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5E9F75F1-40EC-4CF1-925E-E2D485BD9505}.Release|Any CPU.Build.0 = Release|Any CPU
+		{49C5101B-6E4E-4762-BD1C-BE4C4C9422CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{49C5101B-6E4E-4762-BD1C-BE4C4C9422CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{49C5101B-6E4E-4762-BD1C-BE4C4C9422CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{49C5101B-6E4E-4762-BD1C-BE4C4C9422CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F25E6271-B9FA-4928-AA40-980D2AB33897}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F25E6271-B9FA-4928-AA40-980D2AB33897}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F25E6271-B9FA-4928-AA40-980D2AB33897}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F25E6271-B9FA-4928-AA40-980D2AB33897}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4FD11C80-6A5B-49B3-8BD0-F20264925AD4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4FD11C80-6A5B-49B3-8BD0-F20264925AD4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4FD11C80-6A5B-49B3-8BD0-F20264925AD4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4FD11C80-6A5B-49B3-8BD0-F20264925AD4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0873FAB-909C-40FD-A33C-065BD28305A6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0873FAB-909C-40FD-A33C-065BD28305A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0873FAB-909C-40FD-A33C-065BD28305A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0873FAB-909C-40FD-A33C-065BD28305A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FB352B1C-73D5-43A8-845F-AC311F8202CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FB352B1C-73D5-43A8-845F-AC311F8202CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FB352B1C-73D5-43A8-845F-AC311F8202CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FB352B1C-73D5-43A8-845F-AC311F8202CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC993630-3C1D-4C6D-AEEE-0DE73479F771}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC993630-3C1D-4C6D-AEEE-0DE73479F771}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC993630-3C1D-4C6D-AEEE-0DE73479F771}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC993630-3C1D-4C6D-AEEE-0DE73479F771}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC61C769-1E12-4BF6-A52E-9651FA15679E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC61C769-1E12-4BF6-A52E-9651FA15679E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC61C769-1E12-4BF6-A52E-9651FA15679E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC61C769-1E12-4BF6-A52E-9651FA15679E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BB9CBEA-0466-4B90-AF5B-0AB90036F227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BB9CBEA-0466-4B90-AF5B-0AB90036F227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BB9CBEA-0466-4B90-AF5B-0AB90036F227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BB9CBEA-0466-4B90-AF5B-0AB90036F227}.Release|Any CPU.Build.0 = Release|Any CPU
+		{692CDE4F-C6B6-453C-B68B-1B491A830F28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{692CDE4F-C6B6-453C-B68B-1B491A830F28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{692CDE4F-C6B6-453C-B68B-1B491A830F28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{692CDE4F-C6B6-453C-B68B-1B491A830F28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0DFB96E-49DF-4CF7-A4D3-7C8E8BAD8420}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0DFB96E-49DF-4CF7-A4D3-7C8E8BAD8420}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0DFB96E-49DF-4CF7-A4D3-7C8E8BAD8420}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0DFB96E-49DF-4CF7-A4D3-7C8E8BAD8420}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CDEDE4E3-A40E-4904-AEC5-63A0CEB8DB15}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CDEDE4E3-A40E-4904-AEC5-63A0CEB8DB15}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CDEDE4E3-A40E-4904-AEC5-63A0CEB8DB15}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CDEDE4E3-A40E-4904-AEC5-63A0CEB8DB15}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B12200F6-5ADF-427C-A96D-2FF60CBE2030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B12200F6-5ADF-427C-A96D-2FF60CBE2030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B12200F6-5ADF-427C-A96D-2FF60CBE2030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B12200F6-5ADF-427C-A96D-2FF60CBE2030}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

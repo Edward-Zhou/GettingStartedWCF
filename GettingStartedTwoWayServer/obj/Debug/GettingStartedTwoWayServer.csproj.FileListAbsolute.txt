@@ -1,0 +1,8 @@
+D:\Sample\WCF\GettingStarted\GettingStartedTwoWayServer\bin\Debug\GettingStartedTwoWayServer.exe.config
+D:\Sample\WCF\GettingStarted\GettingStartedTwoWayServer\bin\Debug\GettingStartedTwoWayServer.exe
+D:\Sample\WCF\GettingStarted\GettingStartedTwoWayServer\bin\Debug\GettingStartedTwoWayServer.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedTwoWayServer\bin\Debug\GettingStartedTwoWayInterface.dll
+D:\Sample\WCF\GettingStarted\GettingStartedTwoWayServer\bin\Debug\GettingStartedTwoWayInterface.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedTwoWayServer\obj\Debug\GettingStartedTwoWayServer.csprojResolveAssemblyReference.cache
+D:\Sample\WCF\GettingStarted\GettingStartedTwoWayServer\obj\Debug\GettingStartedTwoWayServer.exe
+D:\Sample\WCF\GettingStarted\GettingStartedTwoWayServer\obj\Debug\GettingStartedTwoWayServer.pdb

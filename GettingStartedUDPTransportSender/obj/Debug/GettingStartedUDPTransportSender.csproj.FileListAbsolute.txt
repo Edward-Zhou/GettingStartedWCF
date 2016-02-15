@@ -1,0 +1,10 @@
+D:\Sample\WCF\GettingStarted\GettingStartedUDPTransportSender\obj\Debug\GettingStartedUDPTransportSender.csprojResolveAssemblyReference.cache
+D:\Sample\WCF\GettingStarted\GettingStartedUDPTransportSender\bin\Debug\GettingStartedUDPTransportSender.exe.config
+D:\Sample\WCF\GettingStarted\GettingStartedUDPTransportSender\bin\Debug\GettingStartedUDPTransportSender.exe
+D:\Sample\WCF\GettingStarted\GettingStartedUDPTransportSender\bin\Debug\GettingStartedUDPTransportSender.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedUDPTransportSender\bin\Debug\GettingStartedUDPTransport.exe
+D:\Sample\WCF\GettingStarted\GettingStartedUDPTransportSender\bin\Debug\GettingStartedUDPTransport.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedUDPTransportSender\obj\Debug\GettingStartedUDPTransportSender.exe
+D:\Sample\WCF\GettingStarted\GettingStartedUDPTransportSender\obj\Debug\GettingStartedUDPTransportSender.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedUDPTransportSender\bin\Debug\GettingStartedUDPLib.dll
+D:\Sample\WCF\GettingStarted\GettingStartedUDPTransportSender\bin\Debug\GettingStartedUDPLib.pdb

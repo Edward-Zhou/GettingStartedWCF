@@ -1,0 +1,6 @@
+D:\Sample\WCF\GettingStarted\GettingStartedUDPService\bin\Debug\GettingStartedUDPService.exe.config
+D:\Sample\WCF\GettingStarted\GettingStartedUDPService\bin\Debug\GettingStartedUDPService.exe
+D:\Sample\WCF\GettingStarted\GettingStartedUDPService\bin\Debug\GettingStartedUDPService.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedUDPService\obj\Debug\GettingStartedUDPService.csprojResolveAssemblyReference.cache
+D:\Sample\WCF\GettingStarted\GettingStartedUDPService\obj\Debug\GettingStartedUDPService.exe
+D:\Sample\WCF\GettingStarted\GettingStartedUDPService\obj\Debug\GettingStartedUDPService.pdb

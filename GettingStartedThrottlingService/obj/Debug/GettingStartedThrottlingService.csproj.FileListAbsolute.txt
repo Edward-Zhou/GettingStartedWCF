@@ -1,0 +1,6 @@
+D:\Sample\WCF\GettingStarted\GettingStartedThrottlingService\bin\Debug\GettingStartedThrottlingService.exe.config
+D:\Sample\WCF\GettingStarted\GettingStartedThrottlingService\bin\Debug\GettingStartedThrottlingService.exe
+D:\Sample\WCF\GettingStarted\GettingStartedThrottlingService\bin\Debug\GettingStartedThrottlingService.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedThrottlingService\obj\Debug\GettingStartedThrottlingService.csprojResolveAssemblyReference.cache
+D:\Sample\WCF\GettingStarted\GettingStartedThrottlingService\obj\Debug\GettingStartedThrottlingService.exe
+D:\Sample\WCF\GettingStarted\GettingStartedThrottlingService\obj\Debug\GettingStartedThrottlingService.pdb

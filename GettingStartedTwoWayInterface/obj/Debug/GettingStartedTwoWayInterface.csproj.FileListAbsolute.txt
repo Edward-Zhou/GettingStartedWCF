@@ -1,0 +1,5 @@
+D:\Sample\WCF\GettingStarted\GettingStartedTwoWayInterface\bin\Debug\GettingStartedTwoWayInterface.dll.config
+D:\Sample\WCF\GettingStarted\GettingStartedTwoWayInterface\bin\Debug\GettingStartedTwoWayInterface.dll
+D:\Sample\WCF\GettingStarted\GettingStartedTwoWayInterface\bin\Debug\GettingStartedTwoWayInterface.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedTwoWayInterface\obj\Debug\GettingStartedTwoWayInterface.dll
+D:\Sample\WCF\GettingStarted\GettingStartedTwoWayInterface\obj\Debug\GettingStartedTwoWayInterface.pdb
