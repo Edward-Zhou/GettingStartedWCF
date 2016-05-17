@@ -14,7 +14,7 @@ namespace WcfCallWithAsyncMethod
     {
         static void Main(string[] args)
         {
-            Uri uri = new Uri("http://localhost:42797/Service1.svc");
+            Uri uri = new Uri("http://localhost:808/Service1.svc");
             BasicHttpBinding binding = new BasicHttpBinding();
             Service1Client client = new Service1Client(binding,new EndpointAddress(uri));
             string result = client.TestAsyncMethod();
