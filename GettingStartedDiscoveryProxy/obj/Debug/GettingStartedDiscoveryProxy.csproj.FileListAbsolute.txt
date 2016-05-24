@@ -3,3 +3,4 @@ D:\Sample\WCF\GettingStarted\GettingStartedDiscoveryProxy\bin\Debug\GettingStart
 D:\Sample\WCF\GettingStarted\GettingStartedDiscoveryProxy\bin\Debug\GettingStartedDiscoveryProxy.pdb
 D:\Sample\WCF\GettingStarted\GettingStartedDiscoveryProxy\obj\Debug\GettingStartedDiscoveryProxy.exe
 D:\Sample\WCF\GettingStarted\GettingStartedDiscoveryProxy\obj\Debug\GettingStartedDiscoveryProxy.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedDiscoveryProxy\obj\Debug\GettingStartedDiscoveryProxy.csprojResolveAssemblyReference.cache

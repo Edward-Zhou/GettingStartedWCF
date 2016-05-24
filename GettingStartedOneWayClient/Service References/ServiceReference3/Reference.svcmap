@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ReferenceGroup xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" ID="1d0e34ed-aa86-4fa8-b968-a019ccddd63c" xmlns="urn:schemas-microsoft-com:xml-wcfservicemap">
+  <ClientOptions>
+    <GenerateAsynchronousMethods>true</GenerateAsynchronousMethods>
+    <EnableDataBinding>true</EnableDataBinding>
+    <ExcludedTypes />
+    <ImportXmlTypes>false</ImportXmlTypes>
+    <GenerateInternalTypes>false</GenerateInternalTypes>
+    <GenerateMessageContracts>false</GenerateMessageContracts>
+    <NamespaceMappings />
+    <CollectionMappings />
+    <GenerateSerializableTypes>true</GenerateSerializableTypes>
+    <Serializer>Auto</Serializer>
+    <UseSerializerForFaults>true</UseSerializerForFaults>
+    <ReferenceAllAssemblies>true</ReferenceAllAssemblies>
+    <ReferencedAssemblies />
+    <ReferencedDataContractTypes />
+    <ServiceContractMappings />
+  </ClientOptions>
+  <MetadataSources>
+    <MetadataSource Address="http://localhost:8000/GettingStarted/" Protocol="http" SourceId="1" />
+  </MetadataSources>
+  <Metadata>
+    <MetadataFile FileName="item.xsd" MetadataType="Schema" ID="8747b849-f026-4155-9e79-5f2b7d60b896" SourceId="1" SourceUrl="http://localhost:8000/GettingStarted/?xsd=xsd1" />
+    <MetadataFile FileName="item1.xsd" MetadataType="Schema" ID="84a95828-5fe3-42a3-831f-47efa03d1790" SourceId="1" SourceUrl="http://localhost:8000/GettingStarted/?xsd=xsd0" />
+    <MetadataFile FileName="item.wsdl" MetadataType="Wsdl" ID="d5a402e9-f1ae-409b-8e84-9a19e930a751" SourceId="1" SourceUrl="http://localhost:8000/GettingStarted/?wsdl=wsdl1" />
+    <MetadataFile FileName="CalculatorService.wsdl" MetadataType="Wsdl" ID="92618061-b757-4727-9214-40786f11b1e2" SourceId="1" SourceUrl="http://localhost:8000/GettingStarted/?wsdl" />
+    <MetadataFile FileName="item.disco" MetadataType="Disco" ID="fe416523-39af-4ed2-b032-beae8d0448da" SourceId="1" SourceUrl="http://localhost:8000/GettingStarted/?disco" />
+    <MetadataFile FileName="item1.wsdl" MetadataType="Wsdl" ID="3ad8ed71-36e1-4829-9bb2-a47ec605a23c" SourceId="1" SourceUrl="http://localhost:8000/GettingStarted/?wsdl=wsdl0" />
+  </Metadata>
+  <Extensions>
+    <ExtensionFile FileName="configuration91.svcinfo" Name="configuration91.svcinfo" />
+    <ExtensionFile FileName="configuration.svcinfo" Name="configuration.svcinfo" />
+  </Extensions>
+</ReferenceGroup>

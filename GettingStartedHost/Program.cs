@@ -21,24 +21,25 @@ namespace GettingStartedHost
             ServiceHost selfHost = new ServiceHost(typeof(CalculatorService), baseAddress);
             try
             {
-                //add a  ServiceDiscoveryBehavior
-                selfHost.Description.Behaviors.Add(new ServiceDiscoveryBehavior());
+                ////add a  ServiceDiscoveryBehavior
+                //selfHost.Description.Behaviors.Add(new ServiceDiscoveryBehavior());
 
-                selfHost.AddServiceEndpoint(new UdpDiscoveryEndpoint());
+                //selfHost.AddServiceEndpoint(new UdpDiscoveryEndpoint());
 
-                //add a service endpoint
-                selfHost.AddServiceEndpoint(typeof(ICalculator), new WSHttpBinding(), "CalculatorService");
+                ////add a service endpoint
+                //selfHost.AddServiceEndpoint(typeof(ICalculator), new WSHttpBinding(), "CalculatorService");
                 //enable meta data exchange
                 ServiceMetadataBehavior smb = new ServiceMetadataBehavior();
                 smb.HttpGetEnabled = true;
                 selfHost.Description.Behaviors.Add(smb);
+                selfHost.AddServiceEndpoint(typeof(ICalculator), MetadataExchangeBindings.CreateMexHttpBinding(), "http://localhost:8000/GettingStarted/mex/");
                 //start service
                 selfHost.Open();
                 Console.WriteLine("The service is ready. ");
                 Console.WriteLine("Press <ENTER> to terminate service.");
                 Console.WriteLine();
                 Console.ReadLine();
-
+               
                 // Close the ServiceHostBase to shutdown the service.
                 selfHost.Close();
 

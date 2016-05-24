@@ -1,4 +1,5 @@
 ﻿using GettingStartedOneWayClient.ServiceReference1;
+using GettingStartedOneWayClient.ServiceReference3;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -47,6 +48,10 @@ namespace GettingStartedOneWayClient
             string response = client.SayHello(name);
             Console.WriteLine("SayHello([0])", name);
             Console.WriteLine("SayHello() returned: " + response);
+
+            CalculatorClient client1 = new CalculatorClient(binding, epAddress);
+            client1.AddAsync(1,2);
+            client1.Add(1, 2);
 
             //Closing the client gracefully closes the connection and cleans up resources
             client.Close();

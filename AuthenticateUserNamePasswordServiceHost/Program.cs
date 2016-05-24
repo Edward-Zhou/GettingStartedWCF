@@ -18,6 +18,12 @@ namespace AuthenticateUserNamePasswordServiceHost
             ServiceHost selfhost = new ServiceHost(typeof(Service1),baseAddress);
             try
             {
+                ////add mex 
+                //ServiceMetadataBehavior behavior = new ServiceMetadataBehavior();
+                //behavior.HttpGetEnabled = true;
+                //selfhost.Description.Behaviors.Add(behavior);
+                //selfhost.AddServiceEndpoint(typeof(IService1), MetadataExchangeBindings.CreateMexHttpBinding(), "http://localhost:8000/AuthenticateUserNamePassword/Service/mex/");
+
                 //add username and password 
                 WSHttpBinding wsbinding = new WSHttpBinding();
                 wsbinding.Security.Mode = SecurityMode.Message;
@@ -30,6 +36,7 @@ namespace AuthenticateUserNamePasswordServiceHost
                 ServiceMetadataBehavior smb = new ServiceMetadataBehavior();
                 smb.HttpGetEnabled = true;
                 selfhost.Description.Behaviors.Add(smb);
+                selfhost.AddServiceEndpoint(typeof(IService1), MetadataExchangeBindings.CreateMexHttpBinding(), "http://localhost:8000/AuthenticateUserNamePassword/Service/mex");
                 selfhost.Open();
                 Console.WriteLine("The service is ready.");
                 Console.WriteLine("Press <ENTER> to terminate service.");

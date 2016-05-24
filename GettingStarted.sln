@@ -76,6 +76,12 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UWP.Windows", "UWP\UWP.Wind
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UWP.WindowsPhone", "UWP\UWP.WindowsPhone\UWP.WindowsPhone.csproj", "{46C3EE19-CB9F-435A-9AEB-9A20A8FF2FB2}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousService", "AsynchronousService\AsynchronousService.csproj", "{C31F745E-AFE0-4ECC-8166-63E2C3E1195F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousServiceHost", "AsynchronousServiceHost\AsynchronousServiceHost.csproj", "{124901E2-35FC-4F20-A6C0-C5BD1386B66E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousServiceConsumer", "AsynchronousServiceConsumer\AsynchronousServiceConsumer.csproj", "{CF7C44C1-F0E2-4662-8959-11382BC17DE1}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		UWP\UWP.Shared\UWP.Shared.projitems*{43aca108-8c51-4467-920a-07c4141dea80}*SharedItemsImports = 4
@@ -447,6 +453,36 @@ Global
 		{46C3EE19-CB9F-435A-9AEB-9A20A8FF2FB2}.Release|x86.ActiveCfg = Release|x86
 		{46C3EE19-CB9F-435A-9AEB-9A20A8FF2FB2}.Release|x86.Build.0 = Release|x86
 		{46C3EE19-CB9F-435A-9AEB-9A20A8FF2FB2}.Release|x86.Deploy.0 = Release|x86
+		{C31F745E-AFE0-4ECC-8166-63E2C3E1195F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C31F745E-AFE0-4ECC-8166-63E2C3E1195F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C31F745E-AFE0-4ECC-8166-63E2C3E1195F}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{C31F745E-AFE0-4ECC-8166-63E2C3E1195F}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{C31F745E-AFE0-4ECC-8166-63E2C3E1195F}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{C31F745E-AFE0-4ECC-8166-63E2C3E1195F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C31F745E-AFE0-4ECC-8166-63E2C3E1195F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C31F745E-AFE0-4ECC-8166-63E2C3E1195F}.Release|ARM.ActiveCfg = Release|Any CPU
+		{C31F745E-AFE0-4ECC-8166-63E2C3E1195F}.Release|x64.ActiveCfg = Release|Any CPU
+		{C31F745E-AFE0-4ECC-8166-63E2C3E1195F}.Release|x86.ActiveCfg = Release|Any CPU
+		{124901E2-35FC-4F20-A6C0-C5BD1386B66E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{124901E2-35FC-4F20-A6C0-C5BD1386B66E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{124901E2-35FC-4F20-A6C0-C5BD1386B66E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{124901E2-35FC-4F20-A6C0-C5BD1386B66E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{124901E2-35FC-4F20-A6C0-C5BD1386B66E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{124901E2-35FC-4F20-A6C0-C5BD1386B66E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{124901E2-35FC-4F20-A6C0-C5BD1386B66E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{124901E2-35FC-4F20-A6C0-C5BD1386B66E}.Release|ARM.ActiveCfg = Release|Any CPU
+		{124901E2-35FC-4F20-A6C0-C5BD1386B66E}.Release|x64.ActiveCfg = Release|Any CPU
+		{124901E2-35FC-4F20-A6C0-C5BD1386B66E}.Release|x86.ActiveCfg = Release|Any CPU
+		{CF7C44C1-F0E2-4662-8959-11382BC17DE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CF7C44C1-F0E2-4662-8959-11382BC17DE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CF7C44C1-F0E2-4662-8959-11382BC17DE1}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{CF7C44C1-F0E2-4662-8959-11382BC17DE1}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CF7C44C1-F0E2-4662-8959-11382BC17DE1}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CF7C44C1-F0E2-4662-8959-11382BC17DE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CF7C44C1-F0E2-4662-8959-11382BC17DE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CF7C44C1-F0E2-4662-8959-11382BC17DE1}.Release|ARM.ActiveCfg = Release|Any CPU
+		{CF7C44C1-F0E2-4662-8959-11382BC17DE1}.Release|x64.ActiveCfg = Release|Any CPU
+		{CF7C44C1-F0E2-4662-8959-11382BC17DE1}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
