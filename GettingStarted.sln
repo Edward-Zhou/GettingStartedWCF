@@ -82,6 +82,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousServiceHost", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AsynchronousServiceConsumer", "AsynchronousServiceConsumer\AsynchronousServiceConsumer.csproj", "{CF7C44C1-F0E2-4662-8959-11382BC17DE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscoveryProxyAdHoc", "DiscoveryProxyAd-Hoc\DiscoveryProxyAdHoc.csproj", "{BB9C3AD0-06BB-43EE-8060-5AACDC370DFC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscoveryProxyClient", "DiscoveryProxyClient\DiscoveryProxyClient.csproj", "{F7EA587A-6EDD-4C68-B741-E194D61486FA}"
+	ProjectSection(ProjectDependencies) = postProject
+		{BB9C3AD0-06BB-43EE-8060-5AACDC370DFC} = {BB9C3AD0-06BB-43EE-8060-5AACDC370DFC}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DiscoveryProxyService", "DiscoveryProxyService\DiscoveryProxyService.csproj", "{FD5E7479-890E-4C24-A98E-7A87455F331E}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		UWP\UWP.Shared\UWP.Shared.projitems*{43aca108-8c51-4467-920a-07c4141dea80}*SharedItemsImports = 4
@@ -483,6 +492,36 @@ Global
 		{CF7C44C1-F0E2-4662-8959-11382BC17DE1}.Release|ARM.ActiveCfg = Release|Any CPU
 		{CF7C44C1-F0E2-4662-8959-11382BC17DE1}.Release|x64.ActiveCfg = Release|Any CPU
 		{CF7C44C1-F0E2-4662-8959-11382BC17DE1}.Release|x86.ActiveCfg = Release|Any CPU
+		{BB9C3AD0-06BB-43EE-8060-5AACDC370DFC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB9C3AD0-06BB-43EE-8060-5AACDC370DFC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB9C3AD0-06BB-43EE-8060-5AACDC370DFC}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{BB9C3AD0-06BB-43EE-8060-5AACDC370DFC}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{BB9C3AD0-06BB-43EE-8060-5AACDC370DFC}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{BB9C3AD0-06BB-43EE-8060-5AACDC370DFC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB9C3AD0-06BB-43EE-8060-5AACDC370DFC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BB9C3AD0-06BB-43EE-8060-5AACDC370DFC}.Release|ARM.ActiveCfg = Release|Any CPU
+		{BB9C3AD0-06BB-43EE-8060-5AACDC370DFC}.Release|x64.ActiveCfg = Release|Any CPU
+		{BB9C3AD0-06BB-43EE-8060-5AACDC370DFC}.Release|x86.ActiveCfg = Release|Any CPU
+		{F7EA587A-6EDD-4C68-B741-E194D61486FA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F7EA587A-6EDD-4C68-B741-E194D61486FA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F7EA587A-6EDD-4C68-B741-E194D61486FA}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{F7EA587A-6EDD-4C68-B741-E194D61486FA}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{F7EA587A-6EDD-4C68-B741-E194D61486FA}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{F7EA587A-6EDD-4C68-B741-E194D61486FA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F7EA587A-6EDD-4C68-B741-E194D61486FA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F7EA587A-6EDD-4C68-B741-E194D61486FA}.Release|ARM.ActiveCfg = Release|Any CPU
+		{F7EA587A-6EDD-4C68-B741-E194D61486FA}.Release|x64.ActiveCfg = Release|Any CPU
+		{F7EA587A-6EDD-4C68-B741-E194D61486FA}.Release|x86.ActiveCfg = Release|Any CPU
+		{FD5E7479-890E-4C24-A98E-7A87455F331E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD5E7479-890E-4C24-A98E-7A87455F331E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD5E7479-890E-4C24-A98E-7A87455F331E}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{FD5E7479-890E-4C24-A98E-7A87455F331E}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{FD5E7479-890E-4C24-A98E-7A87455F331E}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{FD5E7479-890E-4C24-A98E-7A87455F331E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD5E7479-890E-4C24-A98E-7A87455F331E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD5E7479-890E-4C24-A98E-7A87455F331E}.Release|ARM.ActiveCfg = Release|Any CPU
+		{FD5E7479-890E-4C24-A98E-7A87455F331E}.Release|x64.ActiveCfg = Release|Any CPU
+		{FD5E7479-890E-4C24-A98E-7A87455F331E}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
