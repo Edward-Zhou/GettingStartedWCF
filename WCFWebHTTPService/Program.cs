@@ -17,6 +17,7 @@ namespace WCFWebHTTPService
             ServiceEndpoint ep = host.AddServiceEndpoint(typeof(IRestService), new WebHttpBinding(), "");
             ServiceDebugBehavior sdb = host.Description.Behaviors.Find<ServiceDebugBehavior>();
             sdb.HttpHelpPageEnabled = false;
+            host.Description.Endpoints[0].EndpointBehaviors.Add(new WebHttpBehavior { HelpEnabled=true});
             host.Open();
             //Console.WriteLine("Service is running");
             //Console.WriteLine("Press enter to quit...");

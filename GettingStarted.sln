@@ -95,6 +95,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFWebHTTPService", "WCFWeb
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFWebHTTPServiceConsumer", "WCFWebHTTPServiceConsumer\WCFWebHTTPServiceConsumer.csproj", "{1F17B68E-C6D0-45BC-94FA-06A65E3861EF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SOAPCallRestService", "SOAPCallRestService\SOAPCallRestService.csproj", "{CB2A4C11-4E2E-4E38-9C33-2995E880A5C6}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		UWP\UWP.Shared\UWP.Shared.projitems*{43aca108-8c51-4467-920a-07c4141dea80}*SharedItemsImports = 4
@@ -546,6 +548,16 @@ Global
 		{1F17B68E-C6D0-45BC-94FA-06A65E3861EF}.Release|ARM.ActiveCfg = Release|Any CPU
 		{1F17B68E-C6D0-45BC-94FA-06A65E3861EF}.Release|x64.ActiveCfg = Release|Any CPU
 		{1F17B68E-C6D0-45BC-94FA-06A65E3861EF}.Release|x86.ActiveCfg = Release|Any CPU
+		{CB2A4C11-4E2E-4E38-9C33-2995E880A5C6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CB2A4C11-4E2E-4E38-9C33-2995E880A5C6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CB2A4C11-4E2E-4E38-9C33-2995E880A5C6}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{CB2A4C11-4E2E-4E38-9C33-2995E880A5C6}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{CB2A4C11-4E2E-4E38-9C33-2995E880A5C6}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{CB2A4C11-4E2E-4E38-9C33-2995E880A5C6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CB2A4C11-4E2E-4E38-9C33-2995E880A5C6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CB2A4C11-4E2E-4E38-9C33-2995E880A5C6}.Release|ARM.ActiveCfg = Release|Any CPU
+		{CB2A4C11-4E2E-4E38-9C33-2995E880A5C6}.Release|x64.ActiveCfg = Release|Any CPU
+		{CB2A4C11-4E2E-4E38-9C33-2995E880A5C6}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
