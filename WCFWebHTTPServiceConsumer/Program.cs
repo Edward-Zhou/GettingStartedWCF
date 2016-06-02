@@ -24,6 +24,9 @@ namespace WCFWebHTTPServiceConsumer
                 Console.WriteLine("call WithPost");
                 s = channel.WithPost("hello post");
                 Console.WriteLine(s);
+                Student student = new Student { FirstName = "Tom", LastName = "Jim" };
+                s = channel.CreateStudent(student);
+                Console.WriteLine(s);
                 Console.ReadLine();
             }
             #endregion

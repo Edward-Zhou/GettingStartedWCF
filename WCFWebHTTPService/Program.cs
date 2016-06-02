@@ -14,10 +14,24 @@ namespace WCFWebHTTPService
         {
             #region wcf web http service
             WebServiceHost host = new WebServiceHost(typeof(RestService), new Uri("http://localhost:8080/"));
+
             ServiceEndpoint ep = host.AddServiceEndpoint(typeof(IRestService), new WebHttpBinding(), "");
             ServiceDebugBehavior sdb = host.Description.Behaviors.Find<ServiceDebugBehavior>();
             sdb.HttpHelpPageEnabled = false;
             host.Description.Endpoints[0].EndpointBehaviors.Add(new WebHttpBehavior { HelpEnabled=true});
+
+            host.Description.Behaviors.Add(new MyServiceBehavior());
+            //ContractDescription cd = host.Description.Endpoints[0].Contract;
+            //OperationDescription myOperationDescription = cd.Operations.Find("CreateStudent");
+            //DataContractSerializerOperationBehavior serializerBehavior = myOperationDescription.Behaviors.Find<DataContractSerializerOperationBehavior>();
+            //if (serializerBehavior == null)
+            //{
+            //    serializerBehavior = new DataContractSerializerOperationBehavior(myOperationDescription);
+            //    myOperationDescription.Behaviors.Add(serializerBehavior);
+            //}
+            //serializerBehavior.DataContractResolver = new SharedTypeResolver();
+
+
             host.Open();
             //Console.WriteLine("Service is running");
             //Console.WriteLine("Press enter to quit...");
