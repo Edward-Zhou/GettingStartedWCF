@@ -99,3 +99,4 @@ D:\Sample\WCF\GettingStarted\MvcWcfDataService\bin\zh-Hans\System.Spatial.resour
 D:\Sample\WCF\GettingStarted\MvcWcfDataService\bin\zh-Hant\System.Spatial.resources.dll
 D:\Sample\WCF\GettingStarted\MvcWcfDataService\obj\Debug\MvcWcfDataService.dll
 D:\Sample\WCF\GettingStarted\MvcWcfDataService\obj\Debug\MvcWcfDataService.pdb
+D:\Sample\WCF\GettingStarted\MvcWcfDataService\obj\Debug\MvcWcfDataService.csprojResolveAssemblyReference.cache

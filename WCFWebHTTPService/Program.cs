@@ -19,8 +19,12 @@ namespace WCFWebHTTPService
             ServiceDebugBehavior sdb = host.Description.Behaviors.Find<ServiceDebugBehavior>();
             sdb.HttpHelpPageEnabled = false;
             host.Description.Endpoints[0].EndpointBehaviors.Add(new WebHttpBehavior { HelpEnabled=true});
-
+            //add IErrorHandler entension
             host.Description.Behaviors.Add(new MyServiceBehavior());
+
+            //add custom message inspector
+            //host.Description.Endpoints[0].EndpointBehaviors.Add(new CustomEndpointBehavior());
+
             //ContractDescription cd = host.Description.Endpoints[0].Contract;
             //OperationDescription myOperationDescription = cd.Operations.Find("CreateStudent");
             //DataContractSerializerOperationBehavior serializerBehavior = myOperationDescription.Behaviors.Find<DataContractSerializerOperationBehavior>();

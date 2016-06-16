@@ -1,0 +1,15 @@
+﻿<s:Envelope xmlns:a="http://www.w3.org/2005/08/addressing" xmlns:s="http://www.w3.org/2003/05/soap-envelope">
+  <s:Header>
+    <a:Action s:mustUnderstand="1">http://tempuri.org/ICalculator/Add</a:Action>
+    <a:MessageID>urn:uuid:505c7342-c94b-4860-9cbe-78f36ac2215b</a:MessageID>
+    <a:ReplyTo>
+      <a:Address>http://www.w3.org/2005/08/addressing/anonymous</a:Address>
+    </a:ReplyTo>
+  </s:Header>
+  <s:Body>
+    <Add xmlns="http://tempuri.org/">
+      <n1>1</n1>
+      <n2>2</n2>
+    </Add>
+  </s:Body>
+</s:Envelope>

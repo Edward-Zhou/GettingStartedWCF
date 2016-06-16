@@ -3,3 +3,4 @@ D:\Sample\WCF\GettingStarted\GettingStartedOneWayServer\bin\Debug\GettingStarted
 D:\Sample\WCF\GettingStarted\GettingStartedOneWayServer\bin\Debug\GettingStartedOneWayServer.pdb
 D:\Sample\WCF\GettingStarted\GettingStartedOneWayServer\obj\Debug\GettingStartedOneWayServer.exe
 D:\Sample\WCF\GettingStarted\GettingStartedOneWayServer\obj\Debug\GettingStartedOneWayServer.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedOneWayServer\obj\Debug\GettingStartedOneWayServer.csprojResolveAssemblyReference.cache

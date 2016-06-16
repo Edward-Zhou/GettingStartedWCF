@@ -13,12 +13,13 @@ namespace DiscoveryProxyService
     {
         static void Main(string[] args)
         {
-            using (ServiceHost host = new ServiceHost(typeof(DiscoveryProxy), new Uri("http://localhost:8080/DiscoveryProxy")))
+            using (ServiceHost host = new ServiceHost(typeof(DiscoveryProxy), new Uri("http://10.168.197.122:8080/DiscoveryProxy")))
             {
                 ServiceMetadataBehavior smb = new ServiceMetadataBehavior();
                 smb.HttpGetEnabled = true;
                 host.Description.Behaviors.Add(smb);
-                host.AddServiceEndpoint(typeof(IDiscoveryProxy),new BasicHttpBinding(),"");
+                ServiceEndpoint sep= host.AddServiceEndpoint(typeof(IDiscoveryProxy),new BasicHttpBinding(),"");
+                sep.ListenUri = new Uri("http://10.168.197.122:8080/DiscoveryProxy/via");
                 ServiceDiscoveryBehavior sdb = new ServiceDiscoveryBehavior();
                 sdb.AnnouncementEndpoints.Add(new UdpAnnouncementEndpoint());
                 host.Description.Behaviors.Add(sdb);

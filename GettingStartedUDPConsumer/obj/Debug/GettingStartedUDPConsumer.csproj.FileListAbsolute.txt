@@ -3,3 +3,4 @@ D:\Sample\WCF\GettingStarted\GettingStartedUDPConsumer\bin\Debug\GettingStartedU
 D:\Sample\WCF\GettingStarted\GettingStartedUDPConsumer\bin\Debug\GettingStartedUDPConsumer.pdb
 D:\Sample\WCF\GettingStarted\GettingStartedUDPConsumer\obj\Debug\GettingStartedUDPConsumer.exe
 D:\Sample\WCF\GettingStarted\GettingStartedUDPConsumer\obj\Debug\GettingStartedUDPConsumer.pdb
+D:\Sample\WCF\GettingStarted\GettingStartedUDPConsumer\obj\Debug\GettingStartedUDPConsumer.csprojResolveAssemblyReference.cache

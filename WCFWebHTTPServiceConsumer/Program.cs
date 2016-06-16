@@ -16,6 +16,7 @@ namespace WCFWebHTTPServiceConsumer
             using (ChannelFactory<IRestService> cf = new ChannelFactory<IRestService>(new WebHttpBinding(), "http://localhost:8080/"))
             {
                 cf.Endpoint.EndpointBehaviors.Add(new WebHttpBehavior());
+                cf.Endpoint.EndpointBehaviors.Add(new CustomEndpointBehavior());
                 IRestService channel = cf.CreateChannel();
                 string s;
                 Console.WriteLine("call WithGet");

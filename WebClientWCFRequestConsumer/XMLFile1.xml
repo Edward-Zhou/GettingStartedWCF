@@ -1,0 +1,12 @@
+﻿<s:Envelope xmlns:s="http://schemas.xmlsoap.org/soap/envelope/">
+  <s:Header>
+    <Action s:mustUnderstand="1" xmlns="http://schemas.microsoft.com/ws/2005/05/addressing/none">http://tempuri.org/ICalculator/Add</Action>
+  </s:Header>
+  <s:Body>
+    <Add xmlns="http://tempuri.org/">
+      <n1>1</n1>
+      <n2>2</n2>
+    </Add>
+  </s:Body>
+</s:Envelope>
+  
