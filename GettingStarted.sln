@@ -132,6 +132,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceCall", "WebServic
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebServiceToWCF", "WebServiceToWCF\WebServiceToWCF.csproj", "{AB6274A1-FC4D-4C23-8639-9D0C9C38632C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFRestService", "WCFRestService\WCFRestService.csproj", "{225849F4-CCD3-47D4-AB6C-DB0BC7B148EE}"
+EndProject
 Global
 	GlobalSection(SharedMSBuildProjectFiles) = preSolution
 		UWP\UWP.Shared\UWP.Shared.projitems*{43aca108-8c51-4467-920a-07c4141dea80}*SharedItemsImports = 4
@@ -693,6 +695,16 @@ Global
 		{AB6274A1-FC4D-4C23-8639-9D0C9C38632C}.Release|ARM.ActiveCfg = Release|Any CPU
 		{AB6274A1-FC4D-4C23-8639-9D0C9C38632C}.Release|x64.ActiveCfg = Release|Any CPU
 		{AB6274A1-FC4D-4C23-8639-9D0C9C38632C}.Release|x86.ActiveCfg = Release|Any CPU
+		{225849F4-CCD3-47D4-AB6C-DB0BC7B148EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{225849F4-CCD3-47D4-AB6C-DB0BC7B148EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{225849F4-CCD3-47D4-AB6C-DB0BC7B148EE}.Debug|ARM.ActiveCfg = Debug|Any CPU
+		{225849F4-CCD3-47D4-AB6C-DB0BC7B148EE}.Debug|x64.ActiveCfg = Debug|Any CPU
+		{225849F4-CCD3-47D4-AB6C-DB0BC7B148EE}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{225849F4-CCD3-47D4-AB6C-DB0BC7B148EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{225849F4-CCD3-47D4-AB6C-DB0BC7B148EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{225849F4-CCD3-47D4-AB6C-DB0BC7B148EE}.Release|ARM.ActiveCfg = Release|Any CPU
+		{225849F4-CCD3-47D4-AB6C-DB0BC7B148EE}.Release|x64.ActiveCfg = Release|Any CPU
+		{225849F4-CCD3-47D4-AB6C-DB0BC7B148EE}.Release|x86.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
