@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Collections.Specialized;
 using System.Linq;
 using System.Net;
+using System.ServiceModel.Channels;
 using System.ServiceModel.Description;
 using System.ServiceModel.Dispatcher;
 using System.Text;
@@ -15,7 +16,7 @@ namespace WebClientWCFRequestConsumer
     {
         static void Main(string[] args)
         {
-            CallFromWebClient();
+            CallFromWCF();
             Console.ReadLine();
         }
 
@@ -47,17 +48,44 @@ namespace WebClientWCFRequestConsumer
 
             Console.WriteLine(result.ToString());
         }
-        public class MyMessageInspector : IClientMessageInspector
+        public class MyMessageInspector : IClientMessageInspector, IDispatchMessageInspector  
         {
             public void AfterReceiveReply(ref System.ServiceModel.Channels.Message reply, object correlationState)
             {
+                Console.WriteLine("IClientMessageInspector AfterReceiveReply：\n{0}", reply.ToString()); 
                 //throw new NotImplementedException();
             }
 
             public object BeforeSendRequest(ref System.ServiceModel.Channels.Message request, System.ServiceModel.IClientChannel channel)
             {
-                //throw new NotImplementedException();
+                Console.WriteLine("IClientMessageInspector BeforeSendRequest：\n{0}", request.ToString());
+                MessageHeader hdUserName = MessageHeader.CreateHeader("u","username","admin");
+                MessageHeader hdPassWord = MessageHeader.CreateHeader("p","password","123");
+                request.Headers.Add(hdUserName);
+                request.Headers.Add(hdPassWord);
+                Console.WriteLine("IClientMessageInspector BeforeSendRequest：\n{0}", request.ToString());
                 return null;
+            }
+
+            object IDispatchMessageInspector.AfterReceiveRequest(ref System.ServiceModel.Channels.Message request, System.ServiceModel.IClientChannel channel, System.ServiceModel.InstanceContext instanceContext)
+            {
+                Console.WriteLine("IDispatchMessageInspector.AfterReceiveRequest：\n{0}", request.ToString());
+                string un = request.Headers.GetHeader<string>("u","username");
+                string ps = request.Headers.GetHeader<string>("p","password");
+                if (un == "admin" && ps == "123")
+                {
+                    Console.WriteLine("It is OK");
+                }
+                else
+                {
+                    Console.WriteLine("bad username or password");
+                }
+                return null;
+            }
+
+            void IDispatchMessageInspector.BeforeSendReply(ref System.ServiceModel.Channels.Message reply, object correlationState)
+            {
+                Console.WriteLine("IDispatchMessageInspector.BeforeSendReply：\n{0}", reply.ToString());  
             }
         }
         public class InspectorBehavior : IEndpointBehavior
@@ -74,7 +102,7 @@ namespace WebClientWCFRequestConsumer
 
             public void ApplyDispatchBehavior(ServiceEndpoint endpoint, EndpointDispatcher endpointDispatcher)
             {
-                
+                endpointDispatcher.DispatchRuntime.MessageInspectors.Add(new MyMessageInspector());
             }
 
             public void Validate(ServiceEndpoint endpoint)
